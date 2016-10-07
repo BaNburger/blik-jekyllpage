@@ -1,0 +1,55 @@
+---
+---
+
+@charset "utf-8";
+
+// Spacing Defaults
+$base-font-family: 'Hind', 'Josephin Sans', sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+// Colour Defaults
+$blik-blue:			#30AABB;
+$blik-black:		#262424;
+$blik-white:		#FFF2F2;
+
+$blik-lightblue:	#33B6C8;
+$blik-mediumblue:	#2993A1;
+$blik-darkblue:		#0F363B;
+$blik-magenta:		#C64787;
+$blik-yellow:		#887B15;
+
+$spacing-unit:     30px;
+
+$text-color:       $blik-black;
+$background-color: $blik-white;
+$brand-color:      $blik-blue;
+
+$grey-color:       #827a7a;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// variables.less
+$theme-primary: $blik-blue;
+$theme-dark: $blik-darkblue;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "mixins",
+        "base"
+;

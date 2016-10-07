@@ -1,0 +1,24 @@
+# Site settings
+title: Blik
+email: info@blik.io
+description: > # close to, but not more than 156 characters!
+  Blik smart-label and data solution for logistics, manufacturing and many more. The Blik IoT solution enables Industry 4.0 and creates a smart industry.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blik.io" # the base hostname & protocol for your site
+copyright: 'Copyright &copy; 2016 Blik.'
+
+# Contact
+twitter_username: blik.io
+facebook_username: blik.io
+linkedin_username: blik.io
+github_username:  blik.io
+phone_number: +49 174 24 12 745
+
+imprint: imprint.html
+
+# Build settings
+markdown: kramdown
+
+# Internationalisation
+languages: ["en", "de"]
+exclude_from_locaizations: ["css", "font-awesome", "fonts", "img", "js"] 
