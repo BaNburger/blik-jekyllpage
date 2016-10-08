@@ -69,6 +69,10 @@ aside {
 
 // Navigation
 
+.navbar-brand {
+  padding-top: 5px;
+}
+
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
@@ -348,4 +352,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
